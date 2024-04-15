@@ -1,0 +1,103 @@
+
+body{
+    background-image: url('/img/muneeb-syed-x9NfeD3FpsE-unsplash.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    /* background-repeat: no-repeat; */ /* Si no quieres que se repita la imagen */
+    background-attachment: fixed;/*  Para fijar la imagen en la ventana de visualización */
+    /* background-color: #f8f8f8; */ /* Color de fondo por si la imagen no carga */
+}
+:root{
+    --color-acento: rgb(167, 167, 167) ;
+    --back : rgb(19, 19, 19) ;
+    --color-letra : white ;
+}
+
+span{
+    color: rgb(0, 0, 0);
+}
+
+span:hover{
+    color: var(--color-acento);
+}
+
+#cuenta-carrito{
+    /* background-color: var(--back); */
+    /* color: var(--color-letra); */
+    font-size:15px;
+    border-radius: 70%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.cardsss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#totalGeneral{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#totall{
+    font-size:22PX ;
+}
+
+
+/* ----------------------foooter-------------------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: auto;
+    padding-top: 100px;
+}
+
+.footer {
+    margin-top: 75px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #212529;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); Sombra en la parte superior del footer */
+}
+
+.footer-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+
+#botnMedio{
+    font-size: 40px;
+}
+#productos{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
